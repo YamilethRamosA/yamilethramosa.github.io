@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.principal{
+    width: 100%;
+    height: 100vh; /*tamano del segundo contenedor*/
+    background-color: #d8c8e2;
+    padding: 40px 180px;
+}
+.contenedor{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    box-shadow: 3px 5px 20px 0px #00000049;
+}
+.logo {
+    width: 50%;
+    height: 100%;
+    background-color: #e6e6f0;
+    position: relative;
+    align-items: flex-start; /* Alinear al inicio del eje principal (verticalmente) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logoe1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.form{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+content {
+   position: absolute;
+    right: 80px;
+    top: 80px;
+}
+.titu{
+    width: 41%;
+    height: 5%;
+    
+}
+.logoe {
+    margin-bottom: -200px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    position: absolute;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 20px; /* Ajusta el espacio entre los elementos según sea necesario */
+    margin-bottom: 0px;
+}
+titu{
+   
+    margin-left: 90%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: none; /* Quita todos los bordes */
+    border-bottom: 1px solid #ccc; /* Agrega solo el borde inferior */
+    border-radius: 0; /* Quita cualquier borde redondeado que pueda haber */
+    width: 300px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 150px;
+    background-color: #3eb208;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   /* width: 350px;
+    height: 50px;*/
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.logo, .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Agregar para centrar verticalmente */
+}
+
+.button-purple {
+    padding: 8px 16px;
+    background-color: #800080; /* Color morado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10px; /* Ajusta el ancho según sea necesario */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: -20px; /* Ajusta la posición horizontal */
+    display: flex;
+    align-items: center;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.highlight-text {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.highlight-text:hover {
+    text-decoration: underline;
+}
+
+.purple-button {
+    padding: 10px 20px;
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple-button:hover {
+    background-color: #4b004b;
+}
